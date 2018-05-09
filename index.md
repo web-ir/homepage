@@ -15,10 +15,8 @@ Theoretically any kind of game engines can be supported. But currently we're foc
 
 ## For game engines already ported to web browser, are you reinventing the wheel?
 
-Well, game engines such as _Unity_ and _Unreal Engine 4_ do have been ported to web browser thanks to _Emscripten_, but the Emscripten ported version is far **NOT** good enough.
-
-_Emscripten_ has its limitations, like slow download/startup times, crash on large size assets,
-no support of multi-threading or TCP/UDP networking and so on. It does work for some games of small footprints, but a lot of times it just fails to even start.
+Well, game engines such as _Unity_ and _Unreal Engine 4_ do have been ported to web browser thanks to _Emscripten_. However, Emscripten has many issues
+like slow startup times, crash on mobiles, no multi-threading, no TCP/UDP networking and so on.
 
 web-ir can do a lot better.
 
